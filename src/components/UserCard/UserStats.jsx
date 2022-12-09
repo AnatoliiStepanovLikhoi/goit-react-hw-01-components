@@ -1,16 +1,32 @@
 import PropTypes from 'prop-types'
 
-export const UserStats = () => {
+export const UserStats = ({followers, views, likes}) => {
     return (
-            <UserStats>
-                <Followers>{ }</Followers>
-                <Views>{ }</Views>
-                <Likes>{ }</Likes>
-            </UserStats>
+    <ul className="stats">
+    <li>
+      <span className="label">Followers</span>
+      <span className="quantity">{followers}</span>
+    </li>
+    <li>
+      <span className="label">Views</span>
+      <span className="quantity">{views}</span>
+    </li>
+    <li>
+      <span className="label">Likes</span>
+      <span className="quantity">{likes}</span>
+    </li>
+  </ul>
+
+
+            // <UserStats>
+            //     <Followers>{ }</Followers>
+            //     <Views>{ }</Views>
+            //     <Likes>{ }</Likes>
+            // </UserStats>
     )
 }
 
-UserCard.propTypes = {
+UserStats.propTypes = {
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired,
