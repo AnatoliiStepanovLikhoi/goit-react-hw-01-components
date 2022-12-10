@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types'
+import css from './UserCard.module.css'
+
 import { UserStats } from './UserStats'
 
 // export const UserCard = ({avatar, username, tag, location}) =>
