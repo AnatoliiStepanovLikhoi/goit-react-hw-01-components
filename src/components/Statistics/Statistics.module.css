@@ -2,16 +2,16 @@
     display: grid;
     width: 600px;
     grid-template-columns: 1fr;
-    grid-template-rows: 110px 100px;
+    grid-template-rows: 100px 100px;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 
     border: 1px solid #c1c1c1;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .title {
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
     font-weight: 500;
 
@@ -20,9 +20,9 @@
     color: #8d8d8d;
 }
 
-.stat-list {
+.statList {
     display: grid;
-    width: 500px;
+    width: 600px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 
     color: #ffffff;
 }

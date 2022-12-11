@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import css from './UserStats.module.css'
+// import css from './UserStats.module.css'
 
 export const UserStats = ({followers, views, likes}) => {
     return (

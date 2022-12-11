@@ -5,16 +5,16 @@ import styles from './Statistics.module.css'
 export const Statistics = ({ title, stats }) => {
     return (
         <section className={styles.statistics}>
-            {title && <h2 className="title">UPLOAD STATS</h2>}
+            {title && <h2 className={styles.title}>UPLOAD STATS</h2>}
             
 
-            <ul className="stat-list">
+            <ul className={styles.statList}>
                 {stats.map(stat => (
-                    <li className="item"
+                    <li className={styles.item}
                         key={stat.id}
                         style={{ backgroundColor: `${getRandomHexColor()}` }}>
-                        <span className="label">{stat.label}</span>
-                        <span className="percentage">{stat.percentage}%</span>
+                        <span className={styles.label}>{stat.label}</span>
+                        <span className={styles.percentage}>{stat.percentage}%</span>
                     </li>
                 ))}
 

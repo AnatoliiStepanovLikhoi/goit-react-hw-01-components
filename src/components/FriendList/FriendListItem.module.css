@@ -1,0 +1,15 @@
+.status{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: grey
+}
+
+.isOnline{
+    background-color: var(--online);
+}
+
+.isOffline{
+    background-color: var(--offline);
+}
