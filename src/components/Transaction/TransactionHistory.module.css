@@ -12,22 +12,22 @@
     box-shadow: 3px 5px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
-.transactionHistor__head{
+.transactionHistory__head{
     height: 50px;
     color: #ffffff;
     background-color: rgb(40, 233, 233);
 }
 
-.transactionHistor__body{
+.transactionHistory__body{
     text-align: center;
     color: grey;
 
 }
 
-.transactionHistor__body tr {
+.transactionHistory__body tr {
     height: 50px;
 }
 
-.transactionHistor__body tr:nth-child(2n){
+.transactionHistory__body tr:nth-child(2n){
     background-color: #dbdbdb;
 }
