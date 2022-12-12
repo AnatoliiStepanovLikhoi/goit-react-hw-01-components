@@ -18,13 +18,6 @@ export const UserStats = ({followers, views, likes}) => {
       <StatsQuantity>{likes}</StatsQuantity>
     </StatsLabel>
   </Stats>
-
-
-            // <UserStats>
-            //     <Followers>{ }</Followers>
-            //     <Views>{ }</Views>
-            //     <Likes>{ }</Likes>
-            // </UserStats>
     )
 }
 

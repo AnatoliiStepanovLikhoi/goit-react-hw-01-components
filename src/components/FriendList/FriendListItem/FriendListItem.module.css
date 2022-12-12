@@ -1,0 +1,40 @@
+.status{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: grey
+}
+
+.friend__item{
+display: flex;
+align-items: center;
+gap: 20px;
+
+padding: 15px;
+width: 320px;
+height: 80px;
+
+
+border: 1px solid grey;
+border-radius: 5px;
+
+box-shadow: 3px 5px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.friend__avatar{
+    width: 45px;
+    height: 45px;
+}
+
+.friend__name{
+    font-weight: 500;
+}
+
+.isOnline{
+    background-color: var(--online);
+}
+
+.isOffline{
+    background-color: var(--offline);
+}

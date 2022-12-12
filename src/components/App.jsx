@@ -4,7 +4,7 @@ import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './Transaction/TransactionHistory';
 
-
+// Styled imports
 import { Container } from './App.styled';
 
 // Data imports
@@ -16,16 +16,7 @@ import transactions from '../data/transactions'
 export const App = () => {
   return (
     <Container>
-    <div
-      // style={{
-      //   height: '100vh',
-      //   display: 'flex',
-      //   justifyContent: 'center',
-      //   alignItems: 'center',
-      //   fontSize: 40,
-      //   color: '#010101'
-      // }}
-    >
+    <div>
       Task 1
       </div>
       <UserCard
