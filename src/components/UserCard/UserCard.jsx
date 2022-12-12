@@ -1,24 +1,12 @@
 import PropTypes from 'prop-types'
-import css from './UserCard.module.css'
+// import css from './UserCard.module.css'
+import { Profile, Description, Avatar, UserName, UserTag, UserLocation } from './UserCard.styled'
 
 import { UserStats } from './UserStats'
 
-// export const UserCard = ({avatar, username, tag, location}) =>
-// {       return
-//         // <Profile>
-//         //     <UserDesc>
-//         //         <Avatar src={ } alt='User avatar' />
-//         //         <Username>{ }</Username>
-//         //         <Tag>{ }</Tag>
-//         //         <Location>{ }</Location>
-//         //     </UserDesc>
-//         //     <UserStats
-//         //         followers={stats.followers}
-//         //         views={stats.views}
-//         //         likes={stats.likes}
-//         //     />
-//         // </Profile>
 
+// export const UserCard = ({avatar, username, tag, location stats}) =>
+// {       return(
 //     <div className="profile">
 //   <div className="description">
 //     <img
@@ -30,30 +18,29 @@ import { UserStats } from './UserStats'
 //     <p className="tag">{tag}</p>
 //     <p className="location">{location}</p>
 //         </div>
-//         </div>
+//         </div>)
     
 // }
 
 export const UserCard = ({avatar, username, tag, location, stats}) =>
 {       return (
-    <div className="profile">
-  <div className="description">
-    <img
+    <Profile>
+  <Description>
+    <Avatar
       src={avatar}
       alt={username}
-      className="avatar"
     />
-    <p className="name">{username}</p>
-    <p className="tag">@{tag}</p>
-    <p className="location">{location}</p>
-        </div>
+    <UserName>{username}</UserName>
+    <UserTag>@{tag}</UserTag>
+    <UserLocation>{location}</UserLocation>
+  </Description>
 
         <UserStats
             followers={stats.followers}
             views={stats.views}
             likes={stats.likes}
         />
-    </div>
+    </Profile>
 )
 }
 

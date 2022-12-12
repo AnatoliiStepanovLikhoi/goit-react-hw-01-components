@@ -1,8 +1,8 @@
 @import-normalize; /* bring in normalize.css styles */
 
 :root {
-  --online: rgb(18, 190, 18);
-  --offline: rgb(242, 22, 22);
+  --online: #12be12;
+  --offline: #f21616;
 }
 
 body {

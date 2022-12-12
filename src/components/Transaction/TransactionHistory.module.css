@@ -29,5 +29,5 @@
 }
 
 .transactionHistor__body tr:nth-child(2n){
-    background-color: rgb(219, 219, 219);
+    background-color: #dbdbdb;
 }
